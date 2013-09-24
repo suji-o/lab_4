@@ -1,0 +1,17 @@
+iframe
+{
+    height:400px;
+    width:400px;
+    text-align:center;
+}
+p
+{
+    text-align:center;
+    color:violet;
+}
+h1
+{
+    font:arial;
+    text-align:center;
+}
+

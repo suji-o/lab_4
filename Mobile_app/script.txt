@@ -1,0 +1,15 @@
+$(document).ready(function()
+{
+  $("#WSDL").click(function()
+                   {
+                       alert("wsdl successful");
+                   });
+});
+
+$(document).ready(function()
+{
+    $("#REST").click(function()
+    {
+        alert("restfull success");
+    });
+});

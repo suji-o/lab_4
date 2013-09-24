@@ -1,0 +1,30 @@
+<div data-role="page" id="page1">
+    <div data-role="header">
+       
+    <h1> Mobile client invoking WSDL and RESTFUL </h1>
+    </div><div data-role="content">
+         <p><a href="#WSDL" data-role="button">WSDL</a></p>
+         <p><a href="#REST" data-role="button">REST</a></p>
+    </div>
+</div>
+<div data-role="page" id="WSDL">
+    <div data-role="header">
+     	  <a data-rel="back" data-icon="home">Home</a>
+        <h1> WSDL service page</h1>
+        </div>
+
+     <div data-role="content">  
+          <iframe src="http://localhost:52140/"></iframe>
+    </div>
+</div>
+<div data-role="page" id="REST">
+    <div data-role="header">
+     	  <a data-rel="back" data-icon="home">Home</a>
+        <h1> RESTful service page</h1>
+        </div>
+
+     <div data-role="content">
+         <iframe src="http://vhost2001.site1.compute.ihost.com/aspnet_client/WcfService2/Service1.svc/add/2/6" height="250px" width="250px"> </iframe>
+
+    </div>
+</div>
